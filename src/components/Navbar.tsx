@@ -16,7 +16,7 @@ export function Navbar() {
             <Button variant="ghost" className="text-slate-600">Access Case</Button>
           </Link>
           <Link href="/login">
-            <Button variant="outline" className="border-slate-200">Professional Login</Button>
+            <Button variant="outline" className="border-slate-200">Login</Button>
           </Link>
         </div>
       </div>

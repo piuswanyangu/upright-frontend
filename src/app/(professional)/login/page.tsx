@@ -61,7 +61,7 @@ export default function ProfessionalLoginPage() {
             <div className="mx-auto bg-slate-900 w-12 h-12 rounded-xl flex items-center justify-center mb-4">
               <ShieldCheck className="w-6 h-6 text-white" />
             </div>
-            <CardTitle className="text-2xl text-slate-900">Professional Login</CardTitle>
+            <CardTitle className="text-2xl text-slate-900">Login</CardTitle>
             <CardDescription className="text-slate-500 mt-2">
               Sign in to manage your assigned cases securely.
             </CardDescription>
