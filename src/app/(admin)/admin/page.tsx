@@ -163,7 +163,7 @@ export default function AdminDashboard() {
                         ) : (
                           <div className="w-full space-y-2">
                             <label className="text-xs font-semibold text-slate-500 uppercase tracking-wide">Assign Professional</label>
-                            <Select onValueChange={(val) => handleAssign(caseItem.id, val)} disabled={assignMutation.isPending}>
+                            <Select onValueChange={(val: string | null) => { if (val) handleAssign(caseItem.id as string, val); }} disabled={assignMutation.isPending}>
                               <SelectTrigger className="w-full bg-white">
                                 <SelectValue placeholder="Select staff..." />
                               </SelectTrigger>
